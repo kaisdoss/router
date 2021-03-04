@@ -1,0 +1,132 @@
+.btnTrailer{
+ 
+
+}
+#pTrailer{
+color: rgb(26, 29, 211);
+font-size: 20px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.helloTrailer{
+  display: flex;
+  flex-direction: column;
+  background-color: hotpink;
+  width: 80%;
+  height: 80%;
+  margin-left: 100px;
+ 
+ 
+  
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.react-stars {
+  margin: 0 auto;
+}
+
+body {
+  font-family: 'DotGothic16', sans-serif !important;
+  background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='30' height='30' patternTransform='scale(1) rotate(0)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(0,0%,100%,1)'/><path d='M0 22.5h30v15H0zm15-15h30v15H15m-30-15h30v15h-30zm15-15h30v15H0z'  stroke-width='0.5' stroke='hsla(259, 0%, 0%, 0.3)' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(-16,0)' fill='url(%23a)'/></svg>");
+}
+
+/*  React Autosuggest */
+
+
+.react-autosuggest__container {
+  position: relative;
+  text-align: center;
+}
+
+.react-autosuggest__suggestions-container {
+  display: none;
+  text-align: center;
+}
+
+.react-autosuggest__suggestions-container--open {
+  display: block;
+  position: absolute;
+  top: 44px;
+  left: 50%;
+  transform: translate(-50%);
+  width: 360px;
+  box-sizing: border-box;
+  border: 1px solid #aaa;
+  background-color: #fff;
+  font-weight: lighter;
+  font-size: 18px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  z-index: 2;
+}
+
+.react-autosuggest__input {
+  width: 360px;
+  height: 30px;
+  font-weight: 300;
+  font-size: 17px;
+  border: 1px solid #aaa;
+  border-radius: 4px 4px 0 0;
+  margin: 15px auto 0;
+  padding: 5px 15px;
+  text-align: center;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.react-autosuggest__input::placeholder {
+  font-family: 'DotGothic16', sans-serif !important;
+}
+
+.react-autosuggest__input--open {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.react-autosuggest__input--focused {
+  outline: none;
+}
+
+.react-autosuggest__suggestions-list {
+  list-style-type: none;
+  padding: 0px;
+  text-align: center;
+  width: 358px;
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+.react-autosuggest__suggestion {
+  cursor: pointer;
+  padding: 10px 0;
+}
+
+.react-autosuggest__suggestion--highlighted {
+  background-color: #000;
+  color: #fff;
+  border-radius: 0 0 4px 4px;
+}
+
